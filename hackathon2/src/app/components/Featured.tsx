@@ -37,7 +37,7 @@ const FeaturedPosts = () => {
   ];
 
   return (
-    <div className="bg-white py-10 mt-[1650px]">
+    <div className="bg-white py-10 mt-[150px]">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-gray-800">Featured Posts</h2>
         <p className="text-gray-500">

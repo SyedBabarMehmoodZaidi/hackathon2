@@ -4,33 +4,31 @@ import GreenMan from '/public/Images/greenman.png'
 const ProductBanner = () => {
   return (
   
-     <div className="w-[1440px] rounded-[5px] absolute bg-[#23856D] mt-[-130px] top-[3200px] border">
-     <div className="w-[1440px] h-[709px]">
-     <div className="w-[1440px] h-[709px]">
-     <div className="w-[1036px] h-[711px] absolute left-[209px] py-[112px] flex  gap-[80px]">
-     <div className="w-[1049px] h-[599px] flex  gap-[30px]">
-       <div className="w-[509px] h-[432px] pt-[60px] flex flex-col gap-[30px]">
-      <h4 className="w-[154px] h-[30px] font-Montserrat font-normal text-[20px] leading-[30px] text-white">SUMMER 2020</h4>
-             <h1 className="w-[509px] h-[160px] font-Montserrat font-bold text-[58px] leading-[80px] text-white">Vita Classic Product</h1>
-                    <p className="w-[341px] h-[40px] font-Montserrat font-medium text-[14px] leading-[20px] text-white">We know how large objects will act, We know how are objects will act, We know</p>
-       <div className="w-[295px] h-[52px] flex gap-[34px]">
-            <h3 className="w-[77px] h-[32px] font-Montserrat font-bold text-[24px] leading-[32px] text-white">$16.48</h3>
-                 <button className="w-[184px] h-[52px] rounded-[5px] px-[40px] bg-[#2DC071] py-[15px] flex gap-[10px]">
-             <h1 className="w-[104px] h-[22px] font-Montserrat text-[14px] leading-[22px] flex text-white justify-center ">ADD TO CART</h1>
-          </button>
-
-            </div>
-
+    <div className="w-full rounded-[5px] bg-[#23856D] top-[3200px] border overflow-hidden">
+  <div className="w-full h-[709px] flex flex-col sm:flex-row items-center justify-center py-[60px] px-5 sm:px-0">
+    {/* Left section (Text) */}
+    <div className="w-full sm:w-[509px] text-center sm:text-left flex flex-col gap-[30px]">
+      {/* On small devices, the order will be from top to bottom */}
+      <h4 className="text-[20px] text-white">{/* Text might be too long, so it's placed first */}SUMMER 2020</h4>
+      <h1 className="text-[58px] font-bold text-white">Vita Classic Product</h1>
+      <p className="text-[14px] font-medium text-white">
+        We know how large objects will act, We know how are objects will act, We know
+      </p>
+      <h3 className="text-[24px] text-white">$16.48</h3>
+      <div className="flex justify-center sm:justify-start gap-[34px]">
+        <button className="w-[184px] h-[52px] rounded-[5px] px-[40px] bg-[#2DC071] py-[15px] flex gap-[10px]">
+          <h1 className="text-[14px] text-white justify-center">ADD TO CART</h1>
+        </button>
       </div>
-         <div className="w-[510px]">
-              <Image src={GreenMan} alt="picman"/>
-            </div>
-            </div>
-         </div>
-         </div>
-            </div>
-        </div>
-    
+    </div>
+
+    {/* Right section (Image) */}
+    <div className="w-full sm:w-[510px] mt-4 sm:mt-0 flex justify-center">
+      <Image src={GreenMan} alt="picman" layout="intrinsic" />
+    </div>
+  </div>
+</div>
+
 
   )
 }

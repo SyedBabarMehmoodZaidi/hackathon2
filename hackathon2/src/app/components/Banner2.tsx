@@ -1,11 +1,10 @@
 import React from 'react'
-
 import Image from "next/image";
 import Couples from '/public/Images/couples.png'
 
 export default function Banner () {
   return (
-    <div className="w-full h-auto absolute top-[3810px]">
+    <div className="w-full h-auto mt-[80px]">  {/* Added mt-[40px] to push the second component down */}
       <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0">
         
         <div className="relative w-full lg:w-[707px] h-[400px] lg:h-[682px] flex justify-center">
@@ -45,4 +44,3 @@ export default function Banner () {
     </div>
   );
 }
-
