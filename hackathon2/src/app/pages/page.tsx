@@ -44,7 +44,7 @@ const Pages = () => {
 
        
 
-     <div className="container absolute top-[200px] left-[100px] mx-auto px-4 py-12 flex flex-col md:flex-row gap-8 font-Montserrat">
+     <div className="container absolute top-[200px] lg:left-[100px] mx-auto px-4 py-12 flex flex-col md:flex-row gap-8 font-Montserrat">
        {/* Left Section - Image Slider */}
        <div className="flex-1">
        
@@ -95,7 +95,7 @@ const Pages = () => {
           </div>
         </div>
 
-        <div className=" flex justify-start items-start space-x-8 mt-[750px] pl-24">
+        <div className=" flex justify-start items-start space-x-8 mt-[1200px] lg:mt-[750px] pl-24">
   {/* First Div */}
   <div className='w-[337px] h-[392px]'>
     <Image src={Room} alt="room" width={337} height={392} />
@@ -132,27 +132,30 @@ const Pages = () => {
 </div>
 
    
-   <div className='mt-12'>
-    <h1 className='w-[299px] h-[32px] font-bold text-[24px] ml-[138px]'>BEST SELLER PRODUCT</h1>
-    
-    <div className='mt-12'>
-    <div className='flex justify-center items-center gap-[30px] '>
-      <Image src={c1} alt='croceryimage' width={238} height={442}/> 
-      <Image src={c2} alt='croceryimage' width={241} height={442}/> 
-      <Image src={c3} alt='croceryimage' width={240} height={442}/> 
-      <Image src={c4} alt='croceryimage' width={240} height={442}/> 
-      </div>
+<div className="mt-12">
+  <h1 className="w-[299px] h-[32px] font-bold text-[24px] mx-auto lg:ml-[138px] text-center lg:text-left">
+    BEST SELLER PRODUCT
+  </h1>
+
+  <div className="mt-12 flex flex-col lg:flex-row justify-center items-center gap-6">
+
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-6">
+      <Image src={c1} alt="croceryimage" width={238} height={442} />
+      <Image src={c2} alt="croceryimage" width={241} height={442} />
+      <Image src={c3} alt="croceryimage" width={240} height={442} />
+      <Image src={c4} alt="croceryimage" width={240} height={442} />
+    </div>
 
 
-      <div className='flex justify-center items-center gap-[30px] pt-[30px]'>
-      <Image src={c5} alt='croceryimage' width={238} height={442}/> 
-      <Image src={c6} alt='croceryimage' width={241} height={442}/> 
-      <Image src={c7} alt='croceryimage' width={240} height={442}/> 
-      <Image src={c8} alt='croceryimage' width={240} height={442}/> 
-      </div>
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-6 pt-6">
+      <Image src={c5} alt="croceryimage" width={238} height={442} />
+      <Image src={c6} alt="croceryimage" width={241} height={442} />
+      <Image src={c7} alt="croceryimage" width={240} height={442} />
+      <Image src={c8} alt="croceryimage" width={240} height={442} />
+    </div>
+  </div>
+</div>
 
-      </div>
-   </div>
 
     <div className='mt-12'>
       <Image src={Desktopclient} alt='logo' width={1440} height={175}/>
