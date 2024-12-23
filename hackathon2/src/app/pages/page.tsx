@@ -137,17 +137,17 @@ const Pages = () => {
     BEST SELLER PRODUCT
   </h1>
 
-  <div className="mt-12 flex flex-col lg:flex-row justify-center items-center gap-6">
-
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-6">
+  <div className="mt-12">
+   
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
       <Image src={c1} alt="croceryimage" width={238} height={442} />
       <Image src={c2} alt="croceryimage" width={241} height={442} />
       <Image src={c3} alt="croceryimage" width={240} height={442} />
       <Image src={c4} alt="croceryimage" width={240} height={442} />
     </div>
 
-
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-6 pt-6">
+    
+    <div className="flex flex-col sm:flex-row justify-center items-center gap-6 pt-6">
       <Image src={c5} alt="croceryimage" width={238} height={442} />
       <Image src={c6} alt="croceryimage" width={241} height={442} />
       <Image src={c7} alt="croceryimage" width={240} height={442} />
