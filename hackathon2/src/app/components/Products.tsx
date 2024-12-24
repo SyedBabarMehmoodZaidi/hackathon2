@@ -8,14 +8,6 @@ import card6 from "/public/Images/product-cover-5 (13).png"
 import card7 from "/public/Images/product-cover-5 (14).png"
 import card8 from "/public/Images/product-cover-5 (15).png"
 import Dots from "/public/Images/Dotss.png"
-import GraphicDesign from '/public/Images/Graphicdesign.png'
-import GraphicDesign1 from '/public/Images/Graphicdesign1.png'
-import GraphicDesign2 from '/public/Images/Graphicdesign2.png'
-import GraphicDesign3 from '/public/Images/Graphicdesign3.png'
-import GraphicDesign4 from '/public/Images/Graphicdesign4.png'
-import GraphicDesign5 from '/public/Images/Graphicdesign5.png'
-import GraphicDesign6 from '/public/Images/Graphicdesign6.png'
-import GraphicDesign7 from '/public/Images/Graphicdesign7.png'
 import Image from 'next/image'
 
 
