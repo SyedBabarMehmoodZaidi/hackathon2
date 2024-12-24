@@ -16,7 +16,7 @@ const ProductBanner = () => {
       </p>
       <h3 className="text-[24px] text-white">$16.48</h3>
       <div className="flex justify-center sm:justify-start gap-[34px]">
-        <button className="w-[184px] h-[52px] rounded-[5px] px-[40px] bg-[#2DC071] py-[15px] flex gap-[10px]">
+        <button className="w-[184px] h-[52px] rounded-[5px] px-[40px] bg-[#2DC071] hover:bg-green-700 py-[15px] flex gap-[10px]">
           <h1 className="text-[14px] text-white justify-center">ADD TO CART</h1>
         </button>
       </div>

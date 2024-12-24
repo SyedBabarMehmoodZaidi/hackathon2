@@ -177,7 +177,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -195,7 +195,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -212,7 +212,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -229,7 +229,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -247,7 +247,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -264,7 +264,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -281,7 +281,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -298,7 +298,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -315,7 +315,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -333,7 +333,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -350,7 +350,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />
@@ -367,7 +367,7 @@ const ShopComponent = () => {
           <p className="text-gray-600 mb-1">English Department</p>
           <p className="text-sm">
             <span className="text-gray-500 line-through mr-2">$16.48</span>
-            <span className="text-green-700 font-bold">$6.48</span>
+            <span className="text-green-700 font-bold hover:text-green-900">$6.48</span>
           </p>
           <p className='mt-2'>
               <Image src={Dots} alt='Dot' width={82.23} height={16} />

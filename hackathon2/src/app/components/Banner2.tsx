@@ -28,13 +28,13 @@ export default function Banner () {
             We know how large objects will act, but things on a small scale.
           </h4>
           <div className="flex flex-wrap justify-center lg:justify-start gap-[10px]">
-            <button className="w-[140px] lg:w-[156px] h-[52px] rounded-[5px] py-[12px] px-[20px] lg:px-[40px] bg-[#2DC071] flex justify-center items-center">
+            <button className="w-[140px] lg:w-[156px] h-[52px] rounded-[5px] py-[12px] px-[20px] lg:px-[40px] bg-[#2DC071] hover:bg-green-700 flex justify-center items-center">
               <h1 className="text-[14px] font-Montserrat font-bold text-white">
                 BUY NOW
               </h1>
             </button>
-            <button className="w-[140px] lg:w-[156px] h-[52px] rounded-[5px] py-[12px] px-[20px] lg:px-[40px] border border-[#2DC071] flex justify-center items-center">
-              <h1 className="text-[14px] font-Montserrat font-bold whitespace-nowrap text-[#2DC071]">
+            <button className="w-[140px] lg:w-[156px] h-[52px] rounded-[5px] py-[12px] px-[20px] lg:px-[40px] border border-[#535e58] hover:bg-green-700  flex justify-center items-center">
+              <h1 className="text-[14px] font-Montserrat font-bold whitespace-nowrap text-[#2DC071] hover:text-white">
                 READ MORE
               </h1>
             </button>

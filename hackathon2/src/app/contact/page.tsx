@@ -15,7 +15,7 @@ const page = () => {
     <div>
       <div className="h-screen">
       <div className="flex flex-col lg:flex-row h-[80%]">
-  <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start space-y-4 pl-[176px]">
+  <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start space-y-4 lg:pl-[176px] sm:pl-[10px]">
     <p className="text-[16px] font-bold text-[#252B42] text-center lg:text-left">CONTACT US</p>
     <h1 className="max-w-[496px] font-bold text-[58px] text-[#252B42] text-center lg:text-left">
       Get in touch{' '}

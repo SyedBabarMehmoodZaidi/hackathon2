@@ -66,10 +66,11 @@ const Header = () => {
         {isMenuOpen && (
           <div className='sm:hidden flex flex-col items-center gap-4 mt-4'>
             <ul>
-              <li className='text-center'><Link href="/">Home</Link></li>
-              <li className='text-center'><Link href="/about">About</Link></li>
-              <li className='text-center'><Link href="/pages">Pages</Link></li>
-              <li className='text-center'><Link href="/contact">Contact</Link></li>
+              <li className='text-center font-semibold'><Link href="/">Home</Link></li>
+              <li className='text-center font-semibold'><Link href="/shop">Shop</Link></li>
+              <li className='text-center font-semibold'><Link href="/about">About</Link></li>
+              <li className='text-center font-semibold'><Link href="/pages">Pages</Link></li>
+              <li className='text-center font-semibold'><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
         )}
